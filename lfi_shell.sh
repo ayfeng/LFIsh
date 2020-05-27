@@ -4,6 +4,7 @@
 
 if [[ $# -lt 1 ]]; then
     echo "Usage: $(basename $0) IP"
+    exit 1
 fi
 
 ip=$1
